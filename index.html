@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/animate.css-master/animate.min.css">
+
+
+  <title>ApniChatt</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <navbar id="navBar">
+      <img src="./images/Apni-Chath-Logo-1.png" alt="" class="logo">
+
+      <ul class="links mt-3">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Installments</a></li>
+
+        <li><a href="#">Commerical</a></li>
+        <li><a href="#">Plots</a></li>
+        <li><a href="#">Individual</a></li>
+
+        <li><a href="#">Agents</a></li>
+        <li><a href="#">Developers</a></li>
+
+      </ul>
+      <a href="#" class="register-btn">Register Now</a>
+      <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </navbar>
+
+    <div class="container">
+      <h1>SEARCH PROPERTIES IN PAKISTAN</h1>
+      <div class="search-bar">
+        <form>
+          <div>
+            <!-- <input type="search" placeholder="City"> -->
+            <select name="languages" id="lang" type="search" placeholder="City" class="input-city">
+              <option value="select">City</option>
+              <option>Lahore</option>
+
+              <option value="php">Karachi</option>
+              <option value="java">Islamabad</option>
+              <option value="golang">Rawalpindi</option>
+
+            </select>
+          </div>
+          <div class="location-input">
+            <!-- <input type="search" placeholder="Location"> -->
+            <select name="languages" id="lang" type="search" placeholder="City" class="">
+              <option value="select">Location</option>
+              <option value="javascript">JavaScript</option>
+              <option value="php">PHP</option>
+              <option value="java">Java</option>
+              <option value="golang">Golang</option>
+              <option value="python">Python</option>
+              <option value="c#">C#</option>
+              <option value="C++">C++</option>
+              <option value="erlang">Erlang</option>
+            </select>
+          </div>
+
+          <div>
+            <!-- <input type="search" placeholder="For Sale/Rent">
+             -->
+            <select name="languages" id="lang" type="search" placeholder="City">
+              <option value="select">For Sale/Rent</option>
+              <option value="javascript">For Sale/Rent</option>
+              <option value="php">PHP</option>
+              <option value="java">Java</option>
+              <option value="golang">Golang</option>
+              <option value="python">Python</option>
+              <option value="c#">C#</option>
+              <option value="C++">C++</option>
+              <option value="erlang">Erlang</option>
+            </select>
+          </div>
+          <div class="d-flex justify-space-between">
+            <button type="button" class="ml-5 plus-btn" data-bs-toggle="collapse" data-bs-target="#demo"><i
+                class="fa-solid fa-plus"></i></button>
+
+            <button type="submit" class="search-btn2"><img src="./images/search.png" alt=""></button>
+          </div>
+          <hr>
+        </form>
+        <div id="demo" class="collapse">
+          <div class="container mt-3">
+            <div class="row g-1">
+
+              <div class="col-md-4">
+                <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+              </div>
+              <div class="col-md-4"> <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-md-4"> <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="row g-1 mt-3">
+
+              <div class="col-md-4">
+                <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+              </div>
+              <div class="col-md-4"> <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-md-4"> <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="row g-1 mt-3">
+
+              <div class="col-md-4">
+                <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+              </div>
+              <div class="col-md-4"> <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-md-4"> <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-3">
+            <div class="col-md-12">
+              <select class="form-select" id="specificSizeSelect">
+                <option selected>Installment Duration</option>
+                <option value="1">12 Months</option>
+                <option value="1">18 Months</option>
+                <option value="1">24 Months</option>
+                <option value="1">36 Months</option>
+              </select>
+
+
+            </div>
+
+          </div>
+
+
+          <div class="container">
+
+
+
+
+            <a href="#" class="cta-btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplee"
+              aria-expanded="false" aria-controls="collapseExamplee">Looking for certain features<i
+                class="fa-solid fa-arrow-right"></i></a>
+            <div class="mt-3 checkbox-section" id="collapseExamplee">
+              <div class="d-flex check-filter">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> 2 Stories (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> 26&#039; Ceilings (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Bike Path (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Central Cooling (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Central Heating (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Dual Sinks (0)</label>
+              </div>
+              <div class="d-flex check-filter">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Electric Range (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Emergency Exit (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Fire Alarm (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Fire Place (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Home Theater (0)</label>
+
+              </div>
+              <div class="d-flex check-filter">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Jog Path (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Laundry Room (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Lawn (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Marble Floors (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Next To Busy Way (0)</label>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Swimming Pool (0)</label>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- =====Find the Neighborhood For You=========== -->
+  <div class="exclusives">
+    <div class="container ">
+      <h2 class="sub-title">Find the Neighborhood For You</h2>
+      <p>The neighborhoods best suited to your lifestyle, and the agents who know them best.
+      </p>
+      <div class="row mt-5 gx-3">
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title">Lahore</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title"> Karachi</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title">Lahore</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title"> Faisalabad</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row featured-row-2 gx-3 mt-3">
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title"> Rawalpindi</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title"> Gujranwala</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title"> Peshawar</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card card-inverse text-center">
+
+            <a href="#" class="featured-img"><img class="card-img-top  rounded-0" src="./images/home-2.jpg"
+                alt="Photo of sunset"></a>
+
+            <div class="card-img-overlay">
+              <a hreaf="#">
+                <h4 class="card-title"> Multan</h4>
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+      <a href="#" class="cta-btn ">Know More<i class="fa-solid fa-arrow-right"></i></a>
+
+    </div>
+
+
+  </div>
+
+
+  <!-- ===========trending properties======== -->
+  <div class="trending-properties">
+    <div class="container">
+
+      <h2 class="sub-title mt-5">Trending Properties</h2>
+      <p>The neighborhoods best suited to your lifestyle, and the agents who know them best.
+      </p>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/img-1.jpg" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">Hot</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Villa</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/img-1.jpg" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">Hot</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Villa</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/img-1.jpg" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">Hot</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Villa</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="cta-btn ">Know More<i class="fa-solid fa-arrow-right"></i></a>
+
+    </div>
+  </div>
+  <!-- ==========call to action section========== -->
+  <div class="container">
+    <div class="cta">
+      <h3>Sharing is earning Now</h3>
+      <p>Looking to Buy a new property or Sell an existing one?</p>
+      <a href="#" class="cta-btn ">Know More<i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="about-msg">
+      <h2>Featured Properties</h2>
+      <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+        not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+
+    </div>
+
+  </div>
+
+  <!-- =======real estate cards======= -->
+
+
+  </div>
+
+  <div class="featured-properties">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden rounded-0">
+              <a href="" class="rounded-0"><img class="img-fluid rounded-0" src="./images/img-5.jpg" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+            <div class="d-flex border-top">
+              <small class="flex-fill text-center border-end py-2"><i
+                  class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+              <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3
+                Bed</small>
+              <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/house-5.png" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Villa</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+            <div class="d-flex border-top">
+              <small class="flex-fill text-center border-end py-2"><i
+                  class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+              <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3
+                Bed</small>
+              <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/img-6.jpg" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Office</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+            <div class="d-flex border-top">
+              <small class="flex-fill text-center border-end py-2"><i
+                  class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+              <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3
+                Bed</small>
+              <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4 col-sm-12">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/image-7.png" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Building</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+            <div class="d-flex border-top">
+              <small class="flex-fill text-center border-end py-2"><i
+                  class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+              <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3
+                Bed</small>
+              <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/img-8.jpg" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+            <div class="d-flex border-top">
+              <small class="flex-fill text-center border-end py-2"><i
+                  class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+              <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3
+                Bed</small>
+              <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="property-item rounded overflow-hidden">
+            <div class="position-relative overflow-hidden">
+              <a href=""><img class="img-fluid" src="./images/img-8.jpg" alt=""></a>
+              <div class="bg-btn rounded-0 text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
+              <div class="bg-white rounded-0 bg-text position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home</div>
+            </div>
+            <div class="p-4 pb-0">
+              <h5 class=" mb-3">PKR 2295000</h5>
+              <a class="d-block h5 mb-2" href="">5 Marla Residential Plot For Sale in Bahria Town – Sector C, Lahore,
+                Punjab</a>
+              <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, bahria town , lahore</p>
+            </div>
+            <div class="d-flex border-top">
+              <small class="flex-fill text-center border-end py-2"><i
+                  class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+              <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3
+                Bed</small>
+              <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="cta-btn ">Know More<i class="fa-solid fa-arrow-right"></i></a>
+
+    </div>
+  </div>
+
+
+  <!-- ==================footer section================= -->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="container my-5">
+
+    <footer>
+      <div class="container p-4">
+        <h2 class="sub-title mt-5">Real Estate in Popular Cities</h2>
+        <p>Browse listings, view photos, and connect with an agent to schedule a viewing in some of our most popular
+          cities.
+
+        </p>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;"> Karachi</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;"> Lahore</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Faisalabad</a>
+              </li>
+              <li>
+                <a href="#!" style="color: #4f4f4f;">Rawalpindi</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Gujranwala</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;"> Peshawar</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Multan</a>
+              </li>
+              <li>
+                <a href="#!" style="color: #4f4f4f;">Hyderabad</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;"> Sialkot </a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Sukkur</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Mardan</a>
+              </li>
+              <li>
+                <a href="#!" style="color: #4f4f4f;">Muzaffarabad</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;"> Islamabad</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Quetta</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f;">Bahawalpur</a>
+              </li>
+              <li>
+                <a href="#!" style="color: #4f4f4f;">Sargodha</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <!-- ==========dark footer=========== -->
+  <footer class="bg-dark-gradient footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-border-bottom pb-6 mb-5">
+          <div class="row d-flex justify-content-between">
+            <div class="col-lg-4 col-xl-3">
+              <img src="./images/Apni-Chath-Logo-1.png" class="img-fluid footer-img" alt="img" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 my-4">
+            <h5 class="text-white h6 mb-4">Customer</h5>
+            <ul class="list-unstyled white-link footer-links">
+              <li><a href="#"></a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-3 my-4">
+            <h5 class="text-white h6 mb-4">Customer</h5>
+            <ul class="list-unstyled white-link footer-links">
+              <li><a href="#"></a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-3 my-4">
+            <h5 class="text-white h6 mb-4">Product</h5>
+            <ul class="list-unstyled white-link footer-links">
+              <li><a href="#"></a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Join our team</a></li>
+              <li><a href="#">Elements</a></li>
+              <li><a href="#">Products</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-3 my-4">
+            <h5 class="text-white h6 mb-4">Company</h5>
+            <ul class="list-unstyled white-link footer-links">
+              <li><a href="#"></a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Legal &amp; Security</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">We&#x27;re hiring!</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom footer-border-top light py-3">
+      <div class="container text-center">
+        <p class="m-0">
+          © 2021 copyright
+          <a href="#" class="text-reset">pxdraft</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========end footer section========== -->
+
+
+
+
+  <!-- <script src="../js/bootstrap.min.js"></script> -->
+  <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
